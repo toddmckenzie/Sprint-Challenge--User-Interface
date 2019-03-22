@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -82,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -143,4 +143,175 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header {
+	display: flex;
+	width: 800px; /*fixed after sprint from 100%
+	margin-left: 20px;
+	margin-bottom: 20px; */
+	margin: 0 auto; /*margin fixed after sprint */
+	height: 100px;
+	padding-top: 20px;
+}
+.header-logo {
+	width: 200px;
+	margin-bottom: 20px; /*fixed after sprint*/
+	padding-left: 20px;
+}
+
+.anchors {
+	width: 600px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	padding-bottom: 20px;
+}
+
+.highway {
+	margin-bottom: 20px;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+}
+
+header a:hover {
+	transform: scale(1.2);
+}
+
+#box1 {
+	background-color: teal;
+}
+
+#box2 {
+	background-color: gold;
+}
+
+#box3 {
+	background-color: cadetblue;
+}
+
+#box4 {
+	background-color: coral;
+}
+#box5 {
+	background-color: crimson;
+}
+
+#box6 {
+	background-color: forestgreen;
+}
+
+#box7 {
+	background-color: darkorchid;
+}
+
+#box8 {
+	background-color: hotpink;
+}
+#box9 {
+	background-color: indigo;
+}
+
+#box10 {
+	background-color: dodgerblue;
+}
+
+.container-about {
+	width: 800px;
+	margin: 0 auto; /*switched after sprint */
+
+}
+.city {
+	margin-left: 20px;
+}
+
+.about-section {
+	margin-left: 20px;
+
+
+}
+
+.about-class {
+	margin-left: 20px;
+	margin-top: 15px;
+	border-bottom: 1px dotted black;
+}
+
+
+
+.sections {
+	display: flex;
+	width: 380px;
+	margin-top: 25px;
+	margin-left: 20px;
+	flex-direction: column;
+	padding-bottom: 10px;
+	border-bottom: 2px dotted black;
+	padding-left: 10px;
+}
+
+.section-boxes {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+
+.learn {
+	width: 120px;
+	height: 30px;
+	border-radius: 8px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.learn:hover {
+	background-color: black;
+	color: white;
+}
+
+h4 {
+	padding-top: 10px;
+}
+
+p {
+	padding-bottom: 10px;
+}
+
+.bottom-section {
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+footer nav {
+	margin-left: 30px;
+}
+
+
+.about-footer {
+	margin-left: 20px;
+}
+
+
+.content {
+	display: flex;
+	border-top: 1px dotted black;
+	padding: 20px;
+	margin-left: 20px;
+	flex-wrap: wrap;
+}
+
+.product-boxes {
+	width: 240px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.products-footer {
+	margin-top: 20px;
 }
