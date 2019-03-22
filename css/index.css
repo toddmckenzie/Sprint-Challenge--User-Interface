@@ -292,3 +292,18 @@ footer nav {
 .about-footer {
 	margin-left: 20px;
 }
+
+
+.content {
+	display: flex;
+	border-top: 1px dotted black;
+	padding: 20px;
+	margin-left: 20px;
+	flex-wrap: wrap;
+}
+
+.product-boxes {
+	width: 240px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
