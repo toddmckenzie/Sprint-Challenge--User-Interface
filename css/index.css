@@ -217,6 +217,9 @@ header a:hover {
 	background-color: dodgerblue;
 }
 
+.container-about {
+	width: 800px;
+}
 .city {
 	margin-left: 20px;
 }
@@ -224,8 +227,51 @@ header a:hover {
 .about-section {
 	padding-bottom: 20px;
 	border-bottom: 1px dotted black;
+	
 }
 
 .about-class {
-	margin-left: 20px; 
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+
+
+
+.sections {
+	display: flex;
+	width: 380px;
+	margin-top: 25px;
+	margin-left: 20px;
+	flex-direction: column;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted black;
+	padding-left: 10px;
+}
+
+.section-boxes {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.learn {
+	width: 120px;
+	height: 30px;
+	border-radius: 8px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.learn:hover {
+	background-color: black;
+	color: white;
+}
+
+h4 {
+	padding-top: 10px;
+}
+
+p {
+	padding-bottom: 10px;
 }
