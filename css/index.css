@@ -147,15 +147,17 @@ footer nav a {
 
 header {
 	display: flex;
-	width: 100%;
+	width: 800px; /*fixed after sprint from 100%
 	margin-left: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 20px; */
+	margin: 0 auto; /*margin fixed after sprint */
 	height: 100px;
 	padding-top: 20px;
 }
 .header-logo {
 	width: 200px;
-	margin-bottom: 20px;
+	margin-bottom: 20px; /*fixed after sprint*/
+	padding-left: 20px;
 }
 
 .anchors {
@@ -219,6 +221,8 @@ header a:hover {
 
 .container-about {
 	width: 800px;
+	margin: 0 auto; /*switched after sprint */
+
 }
 .city {
 	margin-left: 20px;
