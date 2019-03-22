@@ -225,15 +225,15 @@ header a:hover {
 }
 
 .about-section {
-	padding-bottom: 20px;
-	border-bottom: 1px dotted black;
-	
+	margin-left: 20px;
+
+
 }
 
 .about-class {
 	margin-left: 20px;
-	margin-top: 20px;
-
+	margin-top: 15px;
+	border-bottom: 1px dotted black;
 }
 
 
@@ -245,7 +245,7 @@ header a:hover {
 	margin-left: 20px;
 	flex-direction: column;
 	padding-bottom: 10px;
-	border-bottom: 1px dotted black;
+	border-bottom: 2px dotted black;
 	padding-left: 10px;
 }
 
@@ -254,6 +254,7 @@ header a:hover {
 	flex-wrap: wrap;
 
 }
+
 
 .learn {
 	width: 120px;
@@ -274,4 +275,20 @@ h4 {
 
 p {
 	padding-bottom: 10px;
+}
+
+.bottom-section {
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+footer nav {
+	margin-left: 30px;
+}
+
+
+.about-footer {
+	margin-left: 20px;
 }
