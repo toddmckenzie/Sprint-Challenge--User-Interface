@@ -148,20 +148,22 @@ footer nav a {
 header {
 	display: flex;
 	width: 100%;
-	margin-left: 160px;
+	margin-left: 20px;
 	margin-bottom: 20px;
-	margin-top: 20px;
+	height: 100px;
+	padding-top: 20px;
 }
 .header-logo {
-	width: 100px;
-	border: 1px solid red;
+	width: 200px;
+	margin-bottom: 20px;
 }
 
 .anchors {
 	width: 600px;
 	display: flex;
 	justify-content: space-around;
-	border: 1px solid red;
+	align-items: flex-end;
+	padding-bottom: 20px;
 }
 
 .highway {
@@ -175,4 +177,42 @@ header a {
 
 header a:hover {
 	transform: scale(1.2);
+}
+
+#box1 {
+	background-color: teal;
+}
+
+#box2 {
+	background-color: gold;
+}
+
+#box3 {
+	background-color: cadetblue;
+}
+
+#box4 {
+	background-color: coral;
+}
+#box5 {
+	background-color: crimson;
+}
+
+#box6 {
+	background-color: forestgreen;
+}
+
+#box7 {
+	background-color: darkorchid;
+}
+
+#box8 {
+	background-color: hotpink;
+}
+#box9 {
+	background-color: indigo;
+}
+
+#box10 {
+	background-color: dodgerblue;
 }
